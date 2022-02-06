@@ -1,0 +1,335 @@
+2022-02-06 07:17:43,195 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-06 07:17:43,896 djongo.database DEBUG    New MongoClient connection
+2022-02-06 07:17:43,906 djongo.base  DEBUG    New Database connection
+2022-02-06 07:17:43,944 djongo.sql2mongo.query DEBUG    sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2022-02-06 07:17:43,947 djongo.sql2mongo.query DEBUG    Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2022-02-06 07:17:43,952 djongo.sql2mongo.query DEBUG    Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 759000))
+2022-02-06 07:17:43,953 djongo.sql2mongo.query DEBUG    Result: (2, 'auth', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 903000))
+2022-02-06 07:17:43,954 djongo.sql2mongo.query DEBUG    Result: (3, 'admin', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 38000))
+2022-02-06 07:17:43,954 djongo.sql2mongo.query DEBUG    Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2022, 2, 5, 18, 52, 36, 67000))
+2022-02-06 07:17:43,955 djongo.sql2mongo.query DEBUG    Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2022, 2, 5, 18, 52, 36, 79000))
+2022-02-06 07:17:43,956 djongo.sql2mongo.query DEBUG    Result: (6, 'admin', '0004_auto_20210916_1521', datetime.datetime(2022, 2, 5, 18, 52, 36, 96000))
+2022-02-06 07:17:43,957 djongo.sql2mongo.query DEBUG    Result: (7, 'admin', '0005_auto_20210916_1525', datetime.datetime(2022, 2, 5, 18, 52, 36, 110000))
+2022-02-06 07:17:43,957 djongo.sql2mongo.query DEBUG    Result: (8, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2022, 2, 5, 18, 52, 36, 136000))
+2022-02-06 07:17:43,958 djongo.sql2mongo.query DEBUG    Result: (9, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 146000))
+2022-02-06 07:17:43,959 djongo.sql2mongo.query DEBUG    Result: (10, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 159000))
+2022-02-06 07:17:43,960 djongo.sql2mongo.query DEBUG    Result: (11, 'auth', '0004_alter_user_username_opts', datetime.datetime(2022, 2, 5, 18, 52, 36, 172000))
+2022-02-06 07:17:43,961 djongo.sql2mongo.query DEBUG    Result: (12, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2022, 2, 5, 18, 52, 36, 185000))
+2022-02-06 07:17:43,962 djongo.sql2mongo.query DEBUG    Result: (13, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2022, 2, 5, 18, 52, 36, 192000))
+2022-02-06 07:17:43,963 djongo.sql2mongo.query DEBUG    Result: (14, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2022, 2, 5, 18, 52, 36, 205000))
+2022-02-06 07:17:43,964 djongo.sql2mongo.query DEBUG    Result: (15, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 220000))
+2022-02-06 07:17:43,965 djongo.sql2mongo.query DEBUG    Result: (16, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 236000))
+2022-02-06 07:17:43,966 djongo.sql2mongo.query DEBUG    Result: (17, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 250000))
+2022-02-06 07:17:43,966 djongo.sql2mongo.query DEBUG    Result: (18, 'auth', '0011_update_proxy_permissions', datetime.datetime(2022, 2, 5, 18, 52, 36, 265000))
+2022-02-06 07:17:43,967 djongo.sql2mongo.query DEBUG    Result: (19, 'index', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 300000))
+2022-02-06 07:17:43,968 djongo.sql2mongo.query DEBUG    Result: (20, 'index', '0002_bookmarkmoviesmodel_usermodel', datetime.datetime(2022, 2, 5, 18, 52, 36, 360000))
+2022-02-06 07:17:43,969 djongo.sql2mongo.query DEBUG    Result: (21, 'sessions', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 414000))
+2022-02-06 07:18:23,924 asyncio      DEBUG    Using proactor: IocpProactor
+2022-02-06 07:18:24,579 asyncio      DEBUG    Using proactor: IocpProactor
+2022-02-06 07:18:28,650 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-06 07:18:29,302 djongo.database DEBUG    New MongoClient connection
+2022-02-06 07:18:29,310 djongo.base  DEBUG    New Database connection
+2022-02-06 07:18:29,357 djongo.sql2mongo.query DEBUG    sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2022-02-06 07:18:29,360 djongo.sql2mongo.query DEBUG    Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2022-02-06 07:18:29,361 djongo.sql2mongo.query DEBUG    Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 759000))
+2022-02-06 07:18:29,362 djongo.sql2mongo.query DEBUG    Result: (2, 'auth', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 903000))
+2022-02-06 07:18:29,363 djongo.sql2mongo.query DEBUG    Result: (3, 'admin', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 38000))
+2022-02-06 07:18:29,364 djongo.sql2mongo.query DEBUG    Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2022, 2, 5, 18, 52, 36, 67000))
+2022-02-06 07:18:29,365 djongo.sql2mongo.query DEBUG    Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2022, 2, 5, 18, 52, 36, 79000))
+2022-02-06 07:18:29,366 djongo.sql2mongo.query DEBUG    Result: (6, 'admin', '0004_auto_20210916_1521', datetime.datetime(2022, 2, 5, 18, 52, 36, 96000))
+2022-02-06 07:18:29,366 djongo.sql2mongo.query DEBUG    Result: (7, 'admin', '0005_auto_20210916_1525', datetime.datetime(2022, 2, 5, 18, 52, 36, 110000))
+2022-02-06 07:18:29,367 djongo.sql2mongo.query DEBUG    Result: (8, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2022, 2, 5, 18, 52, 36, 136000))
+2022-02-06 07:18:29,368 djongo.sql2mongo.query DEBUG    Result: (9, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 146000))
+2022-02-06 07:18:29,369 djongo.sql2mongo.query DEBUG    Result: (10, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 159000))
+2022-02-06 07:18:29,370 djongo.sql2mongo.query DEBUG    Result: (11, 'auth', '0004_alter_user_username_opts', datetime.datetime(2022, 2, 5, 18, 52, 36, 172000))
+2022-02-06 07:18:29,370 djongo.sql2mongo.query DEBUG    Result: (12, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2022, 2, 5, 18, 52, 36, 185000))
+2022-02-06 07:18:29,371 djongo.sql2mongo.query DEBUG    Result: (13, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2022, 2, 5, 18, 52, 36, 192000))
+2022-02-06 07:18:29,371 djongo.sql2mongo.query DEBUG    Result: (14, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2022, 2, 5, 18, 52, 36, 205000))
+2022-02-06 07:18:29,372 djongo.sql2mongo.query DEBUG    Result: (15, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 220000))
+2022-02-06 07:18:29,372 djongo.sql2mongo.query DEBUG    Result: (16, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 236000))
+2022-02-06 07:18:29,373 djongo.sql2mongo.query DEBUG    Result: (17, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 250000))
+2022-02-06 07:18:29,374 djongo.sql2mongo.query DEBUG    Result: (18, 'auth', '0011_update_proxy_permissions', datetime.datetime(2022, 2, 5, 18, 52, 36, 265000))
+2022-02-06 07:18:29,374 djongo.sql2mongo.query DEBUG    Result: (19, 'index', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 300000))
+2022-02-06 07:18:29,375 djongo.sql2mongo.query DEBUG    Result: (20, 'index', '0002_bookmarkmoviesmodel_usermodel', datetime.datetime(2022, 2, 5, 18, 52, 36, 360000))
+2022-02-06 07:18:29,375 djongo.sql2mongo.query DEBUG    Result: (21, 'sessions', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 414000))
+2022-02-06 07:18:31,971 djongo.base  DEBUG    New Database connection
+2022-02-06 07:18:31,972 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_moviesmodel"."id", "index_moviesmodel"."title", "index_moviesmodel"."description", "index_moviesmodel"."director", "index_moviesmodel"."writer" FROM "index_moviesmodel" LIMIT 21
+params: ()
+2022-02-06 07:18:31,976 djongo.sql2mongo.query DEBUG    Find query: {'projection': ['id', 'title', 'description', 'director', 'writer'], 'limit': 21}
+2022-02-06 07:18:31,982 djongo.sql2mongo.query DEBUG    Result: (1, 'gifted', 'cute story of a smart lil girl', '', '')
+2022-02-06 07:18:31,983 djongo.sql2mongo.query DEBUG    Result: (2, 'deadpool', 'R rated superhero', '', '')
+2022-02-06 07:18:31,984 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_moviesmodel"."id", "index_moviesmodel"."title", "index_moviesmodel"."description", "index_moviesmodel"."director", "index_moviesmodel"."writer" FROM "index_moviesmodel"
+params: ()
+2022-02-06 07:18:31,988 djongo.sql2mongo.query DEBUG    Find query: {'projection': ['id', 'title', 'description', 'director', 'writer']}
+2022-02-06 07:18:31,989 djongo.sql2mongo.query DEBUG    Result: (1, 'gifted', 'cute story of a smart lil girl', '', '')
+2022-02-06 07:18:31,990 djongo.sql2mongo.query DEBUG    Result: (2, 'deadpool', 'R rated superhero', '', '')
+2022-02-06 07:18:31,993 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:18:43,455 djongo.base  DEBUG    Existing MongoClient connection closed
+2022-02-06 07:18:43,456 djongo.base  DEBUG    New Database connection
+2022-02-06 07:18:43,456 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_bookmarkmoviesmodel"."id", "index_bookmarkmoviesmodel"."user_info_id", "index_bookmarkmoviesmodel"."movie_info_id" FROM "index_bookmarkmoviesmodel" WHERE "index_bookmarkmoviesmodel"."user_info_id" = %(0)s
+params: (1,)
+2022-02-06 07:18:43,459 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'user_info_id': {'$eq': 1}}, 'projection': ['id', 'user_info_id', 'movie_info_id']}
+2022-02-06 07:18:43,481 djongo.sql2mongo.query DEBUG    Result: (1, 1, 1)
+2022-02-06 07:18:43,483 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_moviesmodel"."id", "index_moviesmodel"."title", "index_moviesmodel"."description", "index_moviesmodel"."director", "index_moviesmodel"."writer" FROM "index_moviesmodel" WHERE "index_moviesmodel"."id" = %(0)s LIMIT 21
+params: (1,)
+2022-02-06 07:18:43,487 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'id': {'$eq': 1}}, 'projection': ['id', 'title', 'description', 'director', 'writer'], 'limit': 21}
+2022-02-06 07:18:43,489 djongo.sql2mongo.query DEBUG    Result: (1, 'gifted', 'cute story of a smart lil girl', '', '')
+2022-02-06 07:18:43,492 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:20:27,969 djongo.base  DEBUG    Existing MongoClient connection closed
+2022-02-06 07:20:27,969 djongo.base  DEBUG    New Database connection
+2022-02-06 07:20:27,970 djongo.sql2mongo.query DEBUG    sql_command: SELECT (1) AS "a" FROM "index_usermodel" WHERE "index_usermodel"."username" = %(0)s LIMIT 1
+params: ('user53',)
+2022-02-06 07:20:27,985 djongo.sql2mongo.query DEBUG    Aggregation query: [{'$match': {'username': {'$eq': 'user53'}}}, {'$limit': 1}, {'$project': {'a': {'$literal': 1}}}]
+2022-02-06 07:20:27,986 djongo.sql2mongo.query DEBUG    sql_command: INSERT INTO "index_usermodel" ("username", "first_name", "last_name", "email", "password") VALUES (%(0)s, %(1)s, %(2)s, %(3)s, %(4)s)
+params: ['user53', 'adam', 'scott', 'shubhjhawar78@gmail.com', 'password']
+2022-02-06 07:20:27,999 djongo.sql2mongo.query DEBUG    inserted ids [ObjectId('61ff2963e6adca163cdd27c6')]
+2022-02-06 07:20:31,853 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:20:53,254 django.utils.autoreload INFO     D:\actual_movie_project\movies\index\views.py changed, reloading.
+2022-02-06 07:20:53,255 asyncio      DEBUG    Using proactor: IocpProactor
+2022-02-06 07:20:54,836 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-06 07:20:55,454 djongo.database DEBUG    New MongoClient connection
+2022-02-06 07:20:55,461 djongo.base  DEBUG    New Database connection
+2022-02-06 07:20:55,484 djongo.sql2mongo.query DEBUG    sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2022-02-06 07:20:55,487 djongo.sql2mongo.query DEBUG    Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2022-02-06 07:20:55,488 djongo.sql2mongo.query DEBUG    Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 759000))
+2022-02-06 07:20:55,489 djongo.sql2mongo.query DEBUG    Result: (2, 'auth', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 903000))
+2022-02-06 07:20:55,491 djongo.sql2mongo.query DEBUG    Result: (3, 'admin', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 38000))
+2022-02-06 07:20:55,491 djongo.sql2mongo.query DEBUG    Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2022, 2, 5, 18, 52, 36, 67000))
+2022-02-06 07:20:55,491 djongo.sql2mongo.query DEBUG    Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2022, 2, 5, 18, 52, 36, 79000))
+2022-02-06 07:20:55,492 djongo.sql2mongo.query DEBUG    Result: (6, 'admin', '0004_auto_20210916_1521', datetime.datetime(2022, 2, 5, 18, 52, 36, 96000))
+2022-02-06 07:20:55,493 djongo.sql2mongo.query DEBUG    Result: (7, 'admin', '0005_auto_20210916_1525', datetime.datetime(2022, 2, 5, 18, 52, 36, 110000))
+2022-02-06 07:20:55,493 djongo.sql2mongo.query DEBUG    Result: (8, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2022, 2, 5, 18, 52, 36, 136000))
+2022-02-06 07:20:55,494 djongo.sql2mongo.query DEBUG    Result: (9, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 146000))
+2022-02-06 07:20:55,495 djongo.sql2mongo.query DEBUG    Result: (10, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 159000))
+2022-02-06 07:20:55,495 djongo.sql2mongo.query DEBUG    Result: (11, 'auth', '0004_alter_user_username_opts', datetime.datetime(2022, 2, 5, 18, 52, 36, 172000))
+2022-02-06 07:20:55,496 djongo.sql2mongo.query DEBUG    Result: (12, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2022, 2, 5, 18, 52, 36, 185000))
+2022-02-06 07:20:55,496 djongo.sql2mongo.query DEBUG    Result: (13, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2022, 2, 5, 18, 52, 36, 192000))
+2022-02-06 07:20:55,497 djongo.sql2mongo.query DEBUG    Result: (14, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2022, 2, 5, 18, 52, 36, 205000))
+2022-02-06 07:20:55,498 djongo.sql2mongo.query DEBUG    Result: (15, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 220000))
+2022-02-06 07:20:55,498 djongo.sql2mongo.query DEBUG    Result: (16, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 236000))
+2022-02-06 07:20:55,499 djongo.sql2mongo.query DEBUG    Result: (17, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 250000))
+2022-02-06 07:20:55,499 djongo.sql2mongo.query DEBUG    Result: (18, 'auth', '0011_update_proxy_permissions', datetime.datetime(2022, 2, 5, 18, 52, 36, 265000))
+2022-02-06 07:20:55,500 djongo.sql2mongo.query DEBUG    Result: (19, 'index', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 300000))
+2022-02-06 07:20:55,500 djongo.sql2mongo.query DEBUG    Result: (20, 'index', '0002_bookmarkmoviesmodel_usermodel', datetime.datetime(2022, 2, 5, 18, 52, 36, 360000))
+2022-02-06 07:20:55,501 djongo.sql2mongo.query DEBUG    Result: (21, 'sessions', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 414000))
+2022-02-06 07:20:58,551 djongo.base  DEBUG    New Database connection
+2022-02-06 07:20:58,552 djongo.sql2mongo.query DEBUG    sql_command: SELECT (1) AS "a" FROM "index_usermodel" WHERE "index_usermodel"."username" = %(0)s LIMIT 1
+params: ('user5sd3',)
+2022-02-06 07:20:58,558 djongo.sql2mongo.query DEBUG    Aggregation query: [{'$match': {'username': {'$eq': 'user5sd3'}}}, {'$limit': 1}, {'$project': {'a': {'$literal': 1}}}]
+2022-02-06 07:20:58,560 djongo.sql2mongo.query DEBUG    sql_command: INSERT INTO "index_usermodel" ("username", "first_name", "last_name", "email", "password") VALUES (%(0)s, %(1)s, %(2)s, %(3)s, %(4)s)
+params: ['user5sd3', 'adam', 'scott', 'shubhjhawar78@gmail.com', 'password']
+2022-02-06 07:20:58,567 djongo.sql2mongo.query DEBUG    inserted ids [ObjectId('61ff2982f33bbdb1b658923a')]
+2022-02-06 07:20:58,599 kombu.connection WARNING  No hostname was supplied. Reverting to default 'localhost'
+2022-02-06 07:20:58,675 amqp         DEBUG    Start from server, version: 0.9, properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'rabbit@DESKTOP-GHI7G3M', 'copyright': 'Copyright (c) 2007-2022 VMware, Inc. or its affiliates.', 'information': 'Licensed under the MPL 2.0. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 24.2.1', 'product': 'RabbitMQ', 'version': '3.9.13'}, mechanisms: [b'PLAIN', b'AMQPLAIN'], locales: ['en_US']
+2022-02-06 07:20:58,679 amqp         DEBUG    using channel_id: 1
+2022-02-06 07:20:58,681 amqp         DEBUG    Channel open
+2022-02-06 07:20:58,689 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:21:56,528 django.utils.autoreload INFO     D:\actual_movie_project\movies\index\views.py changed, reloading.
+2022-02-06 07:21:56,529 asyncio      DEBUG    Using proactor: IocpProactor
+2022-02-06 07:21:58,355 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-06 07:22:31,138 django.utils.autoreload INFO     D:\actual_movie_project\movies\index\views.py changed, reloading.
+2022-02-06 07:22:31,139 asyncio      DEBUG    Using proactor: IocpProactor
+2022-02-06 07:22:33,194 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-06 07:28:38,453 django.utils.autoreload INFO     D:\actual_movie_project\movies\index\views.py changed, reloading.
+2022-02-06 07:28:38,454 asyncio      DEBUG    Using proactor: IocpProactor
+2022-02-06 07:28:40,818 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-06 07:28:41,670 djongo.database DEBUG    New MongoClient connection
+2022-02-06 07:28:41,682 djongo.base  DEBUG    New Database connection
+2022-02-06 07:28:41,711 djongo.sql2mongo.query DEBUG    sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2022-02-06 07:28:41,715 djongo.sql2mongo.query DEBUG    Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2022-02-06 07:28:41,717 djongo.sql2mongo.query DEBUG    Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 759000))
+2022-02-06 07:28:41,718 djongo.sql2mongo.query DEBUG    Result: (2, 'auth', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 903000))
+2022-02-06 07:28:41,718 djongo.sql2mongo.query DEBUG    Result: (3, 'admin', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 38000))
+2022-02-06 07:28:41,719 djongo.sql2mongo.query DEBUG    Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2022, 2, 5, 18, 52, 36, 67000))
+2022-02-06 07:28:41,720 djongo.sql2mongo.query DEBUG    Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2022, 2, 5, 18, 52, 36, 79000))
+2022-02-06 07:28:41,721 djongo.sql2mongo.query DEBUG    Result: (6, 'admin', '0004_auto_20210916_1521', datetime.datetime(2022, 2, 5, 18, 52, 36, 96000))
+2022-02-06 07:28:41,721 djongo.sql2mongo.query DEBUG    Result: (7, 'admin', '0005_auto_20210916_1525', datetime.datetime(2022, 2, 5, 18, 52, 36, 110000))
+2022-02-06 07:28:41,722 djongo.sql2mongo.query DEBUG    Result: (8, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2022, 2, 5, 18, 52, 36, 136000))
+2022-02-06 07:28:41,723 djongo.sql2mongo.query DEBUG    Result: (9, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 146000))
+2022-02-06 07:28:41,724 djongo.sql2mongo.query DEBUG    Result: (10, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 159000))
+2022-02-06 07:28:41,724 djongo.sql2mongo.query DEBUG    Result: (11, 'auth', '0004_alter_user_username_opts', datetime.datetime(2022, 2, 5, 18, 52, 36, 172000))
+2022-02-06 07:28:41,725 djongo.sql2mongo.query DEBUG    Result: (12, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2022, 2, 5, 18, 52, 36, 185000))
+2022-02-06 07:28:41,726 djongo.sql2mongo.query DEBUG    Result: (13, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2022, 2, 5, 18, 52, 36, 192000))
+2022-02-06 07:28:41,727 djongo.sql2mongo.query DEBUG    Result: (14, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2022, 2, 5, 18, 52, 36, 205000))
+2022-02-06 07:28:41,728 djongo.sql2mongo.query DEBUG    Result: (15, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 220000))
+2022-02-06 07:28:41,729 djongo.sql2mongo.query DEBUG    Result: (16, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 236000))
+2022-02-06 07:28:41,730 djongo.sql2mongo.query DEBUG    Result: (17, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 250000))
+2022-02-06 07:28:41,731 djongo.sql2mongo.query DEBUG    Result: (18, 'auth', '0011_update_proxy_permissions', datetime.datetime(2022, 2, 5, 18, 52, 36, 265000))
+2022-02-06 07:28:41,731 djongo.sql2mongo.query DEBUG    Result: (19, 'index', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 300000))
+2022-02-06 07:28:41,732 djongo.sql2mongo.query DEBUG    Result: (20, 'index', '0002_bookmarkmoviesmodel_usermodel', datetime.datetime(2022, 2, 5, 18, 52, 36, 360000))
+2022-02-06 07:28:41,733 djongo.sql2mongo.query DEBUG    Result: (21, 'sessions', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 414000))
+2022-02-06 07:34:50,424 django.utils.autoreload INFO     D:\actual_movie_project\movies\index\views.py changed, reloading.
+2022-02-06 07:34:50,425 asyncio      DEBUG    Using proactor: IocpProactor
+2022-02-06 07:34:52,837 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-06 07:34:53,446 djongo.database DEBUG    New MongoClient connection
+2022-02-06 07:34:53,454 djongo.base  DEBUG    New Database connection
+2022-02-06 07:34:53,478 djongo.sql2mongo.query DEBUG    sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2022-02-06 07:34:53,482 djongo.sql2mongo.query DEBUG    Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2022-02-06 07:34:53,484 djongo.sql2mongo.query DEBUG    Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 759000))
+2022-02-06 07:34:53,484 djongo.sql2mongo.query DEBUG    Result: (2, 'auth', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 903000))
+2022-02-06 07:34:53,485 djongo.sql2mongo.query DEBUG    Result: (3, 'admin', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 38000))
+2022-02-06 07:34:53,486 djongo.sql2mongo.query DEBUG    Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2022, 2, 5, 18, 52, 36, 67000))
+2022-02-06 07:34:53,487 djongo.sql2mongo.query DEBUG    Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2022, 2, 5, 18, 52, 36, 79000))
+2022-02-06 07:34:53,487 djongo.sql2mongo.query DEBUG    Result: (6, 'admin', '0004_auto_20210916_1521', datetime.datetime(2022, 2, 5, 18, 52, 36, 96000))
+2022-02-06 07:34:53,488 djongo.sql2mongo.query DEBUG    Result: (7, 'admin', '0005_auto_20210916_1525', datetime.datetime(2022, 2, 5, 18, 52, 36, 110000))
+2022-02-06 07:34:53,489 djongo.sql2mongo.query DEBUG    Result: (8, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2022, 2, 5, 18, 52, 36, 136000))
+2022-02-06 07:34:53,491 djongo.sql2mongo.query DEBUG    Result: (9, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 146000))
+2022-02-06 07:34:53,493 djongo.sql2mongo.query DEBUG    Result: (10, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 159000))
+2022-02-06 07:34:53,494 djongo.sql2mongo.query DEBUG    Result: (11, 'auth', '0004_alter_user_username_opts', datetime.datetime(2022, 2, 5, 18, 52, 36, 172000))
+2022-02-06 07:34:53,494 djongo.sql2mongo.query DEBUG    Result: (12, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2022, 2, 5, 18, 52, 36, 185000))
+2022-02-06 07:34:53,495 djongo.sql2mongo.query DEBUG    Result: (13, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2022, 2, 5, 18, 52, 36, 192000))
+2022-02-06 07:34:53,495 djongo.sql2mongo.query DEBUG    Result: (14, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2022, 2, 5, 18, 52, 36, 205000))
+2022-02-06 07:34:53,496 djongo.sql2mongo.query DEBUG    Result: (15, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 220000))
+2022-02-06 07:34:53,496 djongo.sql2mongo.query DEBUG    Result: (16, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 236000))
+2022-02-06 07:34:53,497 djongo.sql2mongo.query DEBUG    Result: (17, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 250000))
+2022-02-06 07:34:53,498 djongo.sql2mongo.query DEBUG    Result: (18, 'auth', '0011_update_proxy_permissions', datetime.datetime(2022, 2, 5, 18, 52, 36, 265000))
+2022-02-06 07:34:53,498 djongo.sql2mongo.query DEBUG    Result: (19, 'index', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 300000))
+2022-02-06 07:34:53,499 djongo.sql2mongo.query DEBUG    Result: (20, 'index', '0002_bookmarkmoviesmodel_usermodel', datetime.datetime(2022, 2, 5, 18, 52, 36, 360000))
+2022-02-06 07:34:53,499 djongo.sql2mongo.query DEBUG    Result: (21, 'sessions', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 414000))
+2022-02-06 07:35:03,585 djongo.base  DEBUG    New Database connection
+2022-02-06 07:35:03,586 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_bookmarkmoviesmodel"."id", "index_bookmarkmoviesmodel"."user_info_id", "index_bookmarkmoviesmodel"."movie_info_id" FROM "index_bookmarkmoviesmodel" WHERE "index_bookmarkmoviesmodel"."user_info_id" = %(0)s
+params: (1,)
+2022-02-06 07:35:03,588 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'user_info_id': {'$eq': 1}}, 'projection': ['id', 'user_info_id', 'movie_info_id']}
+2022-02-06 07:35:03,590 djongo.sql2mongo.query DEBUG    Result: (1, 1, 1)
+2022-02-06 07:35:03,591 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_moviesmodel"."id", "index_moviesmodel"."title", "index_moviesmodel"."description", "index_moviesmodel"."director", "index_moviesmodel"."writer" FROM "index_moviesmodel" WHERE "index_moviesmodel"."id" = %(0)s LIMIT 21
+params: (1,)
+2022-02-06 07:35:03,594 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'id': {'$eq': 1}}, 'projection': ['id', 'title', 'description', 'director', 'writer'], 'limit': 21}
+2022-02-06 07:35:03,595 djongo.sql2mongo.query DEBUG    Result: (1, 'gifted', 'cute story of a smart lil girl', '', '')
+2022-02-06 07:35:03,596 django       INFO     all the movies were displayed successfully
+2022-02-06 07:35:03,599 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:35:12,898 djongo.base  DEBUG    Existing MongoClient connection closed
+2022-02-06 07:35:12,899 djongo.base  DEBUG    New Database connection
+2022-02-06 07:35:12,899 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_bookmarkmoviesmodel"."id", "index_bookmarkmoviesmodel"."user_info_id", "index_bookmarkmoviesmodel"."movie_info_id" FROM "index_bookmarkmoviesmodel" WHERE "index_bookmarkmoviesmodel"."user_info_id" = %(0)s
+params: (2,)
+2022-02-06 07:35:12,903 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'user_info_id': {'$eq': 2}}, 'projection': ['id', 'user_info_id', 'movie_info_id']}
+2022-02-06 07:35:12,918 django.request ERROR    Internal Server Error: /movies/2
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2022-02-06 07:35:12,953 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:35:57,931 django.request WARNING  Method Not Allowed: /add_user
+2022-02-06 07:36:01,972 djongo.base  DEBUG    Existing MongoClient connection closed
+2022-02-06 07:36:01,972 djongo.base  DEBUG    New Database connection
+2022-02-06 07:36:01,972 djongo.sql2mongo.query DEBUG    sql_command: SELECT (1) AS "a" FROM "index_usermodel" WHERE "index_usermodel"."username" = %(0)s LIMIT 1
+params: ('user5sd3',)
+2022-02-06 07:36:01,981 djongo.sql2mongo.query DEBUG    Aggregation query: [{'$match': {'username': {'$eq': 'user5sd3'}}}, {'$limit': 1}, {'$project': {'a': {'$literal': 1}}}]
+2022-02-06 07:36:01,982 djongo.sql2mongo.query DEBUG    Result: (1,)
+2022-02-06 07:36:01,983 django.request WARNING  Bad Request: /add_user
+2022-02-06 07:36:01,984 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:37:39,145 django.utils.autoreload INFO     D:\actual_movie_project\movies\index\views.py changed, reloading.
+2022-02-06 07:37:39,145 asyncio      DEBUG    Using proactor: IocpProactor
+2022-02-06 07:37:40,486 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-02-06 07:37:41,023 djongo.database DEBUG    New MongoClient connection
+2022-02-06 07:37:41,029 djongo.base  DEBUG    New Database connection
+2022-02-06 07:37:41,052 djongo.sql2mongo.query DEBUG    sql_command: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+params: ()
+2022-02-06 07:37:41,055 djongo.sql2mongo.query DEBUG    Find query: {'projection': ['id', 'app', 'name', 'applied']}
+2022-02-06 07:37:41,057 djongo.sql2mongo.query DEBUG    Result: (1, 'contenttypes', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 759000))
+2022-02-06 07:37:41,058 djongo.sql2mongo.query DEBUG    Result: (2, 'auth', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 35, 903000))
+2022-02-06 07:37:41,059 djongo.sql2mongo.query DEBUG    Result: (3, 'admin', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 38000))
+2022-02-06 07:37:41,059 djongo.sql2mongo.query DEBUG    Result: (4, 'admin', '0002_logentry_remove_auto_add', datetime.datetime(2022, 2, 5, 18, 52, 36, 67000))
+2022-02-06 07:37:41,060 djongo.sql2mongo.query DEBUG    Result: (5, 'admin', '0003_logentry_add_action_flag_choices', datetime.datetime(2022, 2, 5, 18, 52, 36, 79000))
+2022-02-06 07:37:41,061 djongo.sql2mongo.query DEBUG    Result: (6, 'admin', '0004_auto_20210916_1521', datetime.datetime(2022, 2, 5, 18, 52, 36, 96000))
+2022-02-06 07:37:41,061 djongo.sql2mongo.query DEBUG    Result: (7, 'admin', '0005_auto_20210916_1525', datetime.datetime(2022, 2, 5, 18, 52, 36, 110000))
+2022-02-06 07:37:41,062 djongo.sql2mongo.query DEBUG    Result: (8, 'contenttypes', '0002_remove_content_type_name', datetime.datetime(2022, 2, 5, 18, 52, 36, 136000))
+2022-02-06 07:37:41,062 djongo.sql2mongo.query DEBUG    Result: (9, 'auth', '0002_alter_permission_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 146000))
+2022-02-06 07:37:41,063 djongo.sql2mongo.query DEBUG    Result: (10, 'auth', '0003_alter_user_email_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 159000))
+2022-02-06 07:37:41,063 djongo.sql2mongo.query DEBUG    Result: (11, 'auth', '0004_alter_user_username_opts', datetime.datetime(2022, 2, 5, 18, 52, 36, 172000))
+2022-02-06 07:37:41,064 djongo.sql2mongo.query DEBUG    Result: (12, 'auth', '0005_alter_user_last_login_null', datetime.datetime(2022, 2, 5, 18, 52, 36, 185000))
+2022-02-06 07:37:41,064 djongo.sql2mongo.query DEBUG    Result: (13, 'auth', '0006_require_contenttypes_0002', datetime.datetime(2022, 2, 5, 18, 52, 36, 192000))
+2022-02-06 07:37:41,065 djongo.sql2mongo.query DEBUG    Result: (14, 'auth', '0007_alter_validators_add_error_messages', datetime.datetime(2022, 2, 5, 18, 52, 36, 205000))
+2022-02-06 07:37:41,065 djongo.sql2mongo.query DEBUG    Result: (15, 'auth', '0008_alter_user_username_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 220000))
+2022-02-06 07:37:41,066 djongo.sql2mongo.query DEBUG    Result: (16, 'auth', '0009_alter_user_last_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 236000))
+2022-02-06 07:37:41,066 djongo.sql2mongo.query DEBUG    Result: (17, 'auth', '0010_alter_group_name_max_length', datetime.datetime(2022, 2, 5, 18, 52, 36, 250000))
+2022-02-06 07:37:41,067 djongo.sql2mongo.query DEBUG    Result: (18, 'auth', '0011_update_proxy_permissions', datetime.datetime(2022, 2, 5, 18, 52, 36, 265000))
+2022-02-06 07:37:41,068 djongo.sql2mongo.query DEBUG    Result: (19, 'index', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 300000))
+2022-02-06 07:37:41,069 djongo.sql2mongo.query DEBUG    Result: (20, 'index', '0002_bookmarkmoviesmodel_usermodel', datetime.datetime(2022, 2, 5, 18, 52, 36, 360000))
+2022-02-06 07:37:41,069 djongo.sql2mongo.query DEBUG    Result: (21, 'sessions', '0001_initial', datetime.datetime(2022, 2, 5, 18, 52, 36, 414000))
+2022-02-06 07:37:43,363 djongo.base  DEBUG    New Database connection
+2022-02-06 07:37:43,364 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_bookmarkmoviesmodel"."id", "index_bookmarkmoviesmodel"."user_info_id", "index_bookmarkmoviesmodel"."movie_info_id" FROM "index_bookmarkmoviesmodel" WHERE "index_bookmarkmoviesmodel"."user_info_id" = %(0)s
+params: (2,)
+2022-02-06 07:37:43,366 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'user_info_id': {'$eq': 2}}, 'projection': ['id', 'user_info_id', 'movie_info_id']}
+2022-02-06 07:37:43,368 django       INFO     user has not bookmarked any movie for now.
+2022-02-06 07:37:43,370 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:37:49,519 djongo.base  DEBUG    Existing MongoClient connection closed
+2022-02-06 07:37:49,520 djongo.base  DEBUG    New Database connection
+2022-02-06 07:37:49,520 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_bookmarkmoviesmodel"."id", "index_bookmarkmoviesmodel"."user_info_id", "index_bookmarkmoviesmodel"."movie_info_id" FROM "index_bookmarkmoviesmodel" WHERE "index_bookmarkmoviesmodel"."user_info_id" = %(0)s
+params: (1,)
+2022-02-06 07:37:49,524 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'user_info_id': {'$eq': 1}}, 'projection': ['id', 'user_info_id', 'movie_info_id']}
+2022-02-06 07:37:49,530 djongo.sql2mongo.query DEBUG    Result: (1, 1, 1)
+2022-02-06 07:37:49,531 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_moviesmodel"."id", "index_moviesmodel"."title", "index_moviesmodel"."description", "index_moviesmodel"."director", "index_moviesmodel"."writer" FROM "index_moviesmodel" WHERE "index_moviesmodel"."id" = %(0)s LIMIT 21
+params: (1,)
+2022-02-06 07:37:49,534 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'id': {'$eq': 1}}, 'projection': ['id', 'title', 'description', 'director', 'writer'], 'limit': 21}
+2022-02-06 07:37:49,536 djongo.sql2mongo.query DEBUG    Result: (1, 'gifted', 'cute story of a smart lil girl', '', '')
+2022-02-06 07:37:49,537 django       INFO     all the movies were displayed successfully
+2022-02-06 07:37:49,539 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:37:57,261 djongo.base  DEBUG    Existing MongoClient connection closed
+2022-02-06 07:37:57,262 djongo.base  DEBUG    New Database connection
+2022-02-06 07:37:57,262 djongo.sql2mongo.query DEBUG    sql_command: SELECT (1) AS "a" FROM "index_moviesmodel" WHERE "index_moviesmodel"."title" = %(0)s LIMIT 1
+params: ('deadpool',)
+2022-02-06 07:37:57,270 djongo.sql2mongo.query DEBUG    Aggregation query: [{'$match': {'title': {'$eq': 'deadpool'}}}, {'$limit': 1}, {'$project': {'a': {'$literal': 1}}}]
+2022-02-06 07:37:57,270 djongo.sql2mongo.query DEBUG    Result: (1,)
+2022-02-06 07:37:57,271 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_moviesmodel"."id", "index_moviesmodel"."title", "index_moviesmodel"."description", "index_moviesmodel"."director", "index_moviesmodel"."writer" FROM "index_moviesmodel" WHERE "index_moviesmodel"."title" = %(0)s LIMIT 21
+params: ('deadpool',)
+2022-02-06 07:37:57,274 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'title': {'$eq': 'deadpool'}}, 'projection': ['id', 'title', 'description', 'director', 'writer'], 'limit': 21}
+2022-02-06 07:37:57,275 djongo.sql2mongo.query DEBUG    Result: (2, 'deadpool', 'R rated superhero', '', '')
+2022-02-06 07:37:57,276 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_usermodel"."id", "index_usermodel"."username", "index_usermodel"."first_name", "index_usermodel"."last_name", "index_usermodel"."email", "index_usermodel"."password" FROM "index_usermodel" WHERE "index_usermodel"."id" = %(0)s LIMIT 21
+params: (2,)
+2022-02-06 07:37:57,279 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'id': {'$eq': 2}}, 'projection': ['id', 'username', 'first_name', 'last_name', 'email', 'password'], 'limit': 21}
+2022-02-06 07:37:57,280 djongo.sql2mongo.query DEBUG    Result: (2, 'user53', 'adam', 'scott', 'shubhjhawar78@gmail.com', 'password')
+2022-02-06 07:37:57,281 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_moviesmodel"."id", "index_moviesmodel"."title", "index_moviesmodel"."description", "index_moviesmodel"."director", "index_moviesmodel"."writer" FROM "index_moviesmodel" WHERE "index_moviesmodel"."id" = %(0)s LIMIT 21
+params: (2,)
+2022-02-06 07:37:57,283 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'id': {'$eq': 2}}, 'projection': ['id', 'title', 'description', 'director', 'writer'], 'limit': 21}
+2022-02-06 07:37:57,285 djongo.sql2mongo.query DEBUG    Result: (2, 'deadpool', 'R rated superhero', '', '')
+2022-02-06 07:37:57,286 djongo.sql2mongo.query DEBUG    sql_command: INSERT INTO "index_bookmarkmoviesmodel" ("user_info_id", "movie_info_id") VALUES (%(0)s, %(1)s)
+params: [2, 2]
+2022-02-06 07:37:57,294 djongo.sql2mongo.query DEBUG    inserted ids [ObjectId('61ff2d7d6758c1be26fb3828')]
+2022-02-06 07:37:57,294 django       INFO     movie is bookmarked successfully
+2022-02-06 07:37:57,295 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:38:01,543 djongo.base  DEBUG    Existing MongoClient connection closed
+2022-02-06 07:38:01,543 djongo.base  DEBUG    New Database connection
+2022-02-06 07:38:01,543 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_bookmarkmoviesmodel"."id", "index_bookmarkmoviesmodel"."user_info_id", "index_bookmarkmoviesmodel"."movie_info_id" FROM "index_bookmarkmoviesmodel" WHERE "index_bookmarkmoviesmodel"."user_info_id" = %(0)s
+params: (2,)
+2022-02-06 07:38:01,545 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'user_info_id': {'$eq': 2}}, 'projection': ['id', 'user_info_id', 'movie_info_id']}
+2022-02-06 07:38:01,551 djongo.sql2mongo.query DEBUG    Result: (3, 2, 2)
+2022-02-06 07:38:01,552 djongo.sql2mongo.query DEBUG    sql_command: SELECT "index_moviesmodel"."id", "index_moviesmodel"."title", "index_moviesmodel"."description", "index_moviesmodel"."director", "index_moviesmodel"."writer" FROM "index_moviesmodel" WHERE "index_moviesmodel"."id" = %(0)s LIMIT 21
+params: (2,)
+2022-02-06 07:38:01,555 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'id': {'$eq': 2}}, 'projection': ['id', 'title', 'description', 'director', 'writer'], 'limit': 21}
+2022-02-06 07:38:01,556 djongo.sql2mongo.query DEBUG    Result: (2, 'deadpool', 'R rated superhero', '', '')
+2022-02-06 07:38:01,557 django       INFO     all the movies were displayed successfully
+2022-02-06 07:38:01,559 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:38:25,905 djongo.base  DEBUG    Existing MongoClient connection closed
+2022-02-06 07:38:25,905 djongo.base  DEBUG    New Database connection
+2022-02-06 07:38:25,906 djongo.sql2mongo.query DEBUG    sql_command: SELECT (1) AS "a" FROM "index_usermodel" WHERE "index_usermodel"."username" = %(0)s LIMIT 1
+params: ('user5sff3',)
+2022-02-06 07:38:25,914 djongo.sql2mongo.query DEBUG    Aggregation query: [{'$match': {'username': {'$eq': 'user5sff3'}}}, {'$limit': 1}, {'$project': {'a': {'$literal': 1}}}]
+2022-02-06 07:38:25,914 djongo.sql2mongo.query DEBUG    sql_command: INSERT INTO "index_usermodel" ("username", "first_name", "last_name", "email", "password") VALUES (%(0)s, %(1)s, %(2)s, %(3)s, %(4)s)
+params: ['user5sff3', 'adam', 'scott', 'shubhjhawar78@gmail.com', 'password']
+2022-02-06 07:38:25,919 djongo.sql2mongo.query DEBUG    inserted ids [ObjectId('61ff2d996758c1be26fb3829')]
+2022-02-06 07:38:25,920 django       INFO     serializer is valid
+2022-02-06 07:38:25,958 kombu.connection WARNING  No hostname was supplied. Reverting to default 'localhost'
+2022-02-06 07:38:26,012 amqp         DEBUG    Start from server, version: 0.9, properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'rabbit@DESKTOP-GHI7G3M', 'copyright': 'Copyright (c) 2007-2022 VMware, Inc. or its affiliates.', 'information': 'Licensed under the MPL 2.0. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 24.2.1', 'product': 'RabbitMQ', 'version': '3.9.13'}, mechanisms: [b'PLAIN', b'AMQPLAIN'], locales: ['en_US']
+2022-02-06 07:38:26,015 amqp         DEBUG    using channel_id: 1
+2022-02-06 07:38:26,016 amqp         DEBUG    Channel open
+2022-02-06 07:38:26,018 django       INFO     email sent successfully
+2022-02-06 07:38:26,020 djongo.base  DEBUG    MongoClient connection closed
+2022-02-06 07:39:20,879 asyncio      DEBUG    Using proactor: IocpProactor
+2022-02-06 07:39:21,003 asyncio      DEBUG    Using proactor: IocpProactor

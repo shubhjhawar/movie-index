@@ -10,7 +10,6 @@ def sleepy(duration):
 
 @shared_task
 def send_email_task(email):
-    sleep(1)
     send_mail('Welcome',
               'This is a greeting email from our side, welcome aboard.',
               'jhawar556shubh@gmail.com',

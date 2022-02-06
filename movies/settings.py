@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import logging.config
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -74,14 +75,21 @@ WSGI_APPLICATION = 'movies.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+#
+# DATABASES = {
+#       'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'movies',
+#         'USER': 'postgres',
+#         'PASSWORD':'shubh@123',
+#         'HOST':'localhost'
+#     }
+# }
 
 DATABASES = {
       'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'movies',
-        'USER': 'postgres',
-        'PASSWORD':'shubh@123',
-        'HOST':'localhost'
+        'ENGINE': 'djongo',
+        'NAME': 'movies_db',
     }
 }
 
@@ -137,4 +145,40 @@ EMAIL_HOST_USER = 'jhawar556shubh@gmail.com'
 EMAIL_HOST_PASSWORD = 'oiwopaulgjlkkdzf'
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
+
+
+logging.config.dictConfig({
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'colored': {
+			'()': 'colorlog.ColoredFormatter',
+			'format': "%(log_color)s %(asctime)s %(name)-12s %(levelname)-8s %(message)s"
+        },
+        'console': {
+            'format': '%(name)-12s %(levelname)-8s %(message)s'
+        },
+        'file': {
+            'format': '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
+        }
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'colored'
+        },
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'formatter': 'file',
+            'filename': './logs/debug.log'
+        }
+    },
+    'loggers': {
+        '': {
+            'level': 'DEBUG',
+            'handlers': ['console', 'file']
+        }
+    }
+})
 
